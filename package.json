@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "node bin/www",
-    "dev": "nodemon bin/www",
-    "prd": "pm2 start bin/www",
+    "start": "node bin/blog_service",
+    "dev": "nodemon bin/blog_service",
+    "prd": "pm2 start bin/blog_service",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
