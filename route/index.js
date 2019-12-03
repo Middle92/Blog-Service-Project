@@ -8,6 +8,7 @@ const utils = require('../utils')
 router
   // 获取 导航数据
   .get('/get_navigation_list', async (ctx, next) => {
+    console.log(1)
     // 获取mysql数据
     const navigation_list = await mysql_shell('SELECT * FROM blog.navigation_list;')
     // 转换tree数据格式
