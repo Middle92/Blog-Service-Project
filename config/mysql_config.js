@@ -5,12 +5,6 @@ const mysql_config = {
   user: 'root',
   password: "123456",
   socketPath: '/tmp/mysql.sock',
-  thread_stack: '64K',
-  table_open_cache: 4,
-  sort_buffer_size: '64K',
-  read_buffer_size: '256K',
-  max_allowed_packet: '1M',
-  innodb_buffer_pool_size: '56M'
 }
 
 const createPool = mysql.createPool(mysql_config)
