@@ -1,9 +1,10 @@
 const mysql = require('mysql')
 
 const mysql_config = {
-  host: '47.52.137.175',
+  host: 'localhost',
   user: 'root',
-  password: "123456"
+  password: "123456",
+  socketPath: '/tmp/mysql.sock'
 }
 
 const createPool = mysql.createPool(mysql_config)
