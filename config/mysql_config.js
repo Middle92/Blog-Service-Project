@@ -4,7 +4,7 @@ const mysql_config = {
   host: 'localhost',
   user: 'root',
   password: "123456",
-  socketPath: '/tmp/mysql.sock.lock'
+  socketPath: '/tmp/mysql.sock'
 }
 
 const createPool = mysql.createPool(mysql_config)
