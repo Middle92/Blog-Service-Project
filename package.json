@@ -4,8 +4,8 @@
   "main": "index.js",
   "scripts": {
     "start": "node bin/blog_service",
-    "dev": "set NODE_ENV=dev1 && nodemon bin/blog_service",
-    "prd": "set NODE_ENV=dev2 && pm2 start bin/blog_service",
+    "dev": "nodemon bin/blog_service",
+    "prd": "pm2 start bin/blog_service",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",

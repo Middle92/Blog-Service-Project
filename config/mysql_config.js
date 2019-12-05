@@ -1,9 +1,7 @@
 const mysql = require('mysql')
 
-console.log('env', process)
-
 const mysql_config = {
-  host: 'localhost',
+  host: '47.52.137.175',
   user: 'root',
   password: "123456"
 }
