@@ -1,7 +1,6 @@
 const mysql = require('mysql')
 
-let env = process.env.NODE_ENV
-console.log('env', env)
+console.log('env', process)
 
 const mysql_config = {
   host: 'localhost',
