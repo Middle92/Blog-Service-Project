@@ -1,5 +1,8 @@
 const mysql = require('mysql')
 
+let env = process.env.NODE_ENV
+console.log('env', env)
+
 const mysql_config = {
   host: 'localhost',
   user: 'root',
